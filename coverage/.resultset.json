@@ -11,25 +11,6 @@
           null
         ]
       },
-      "/root/individualproject/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/root/individualproject/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/root/individualproject/app/helpers/projects_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/root/individualproject/app/controllers/projects_controller.rb": {
         "lines": [
           1,
@@ -37,7 +18,7 @@
           null,
           null,
           1,
-          0,
+          2,
           null,
           null,
           null,
@@ -46,34 +27,21 @@
           null,
           null,
           1,
-          0,
-          null,
-          null,
-          null,
           1,
           null,
           null,
           null,
           1,
-          0,
-          null,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
           null,
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
+          1,
+          null,
+          1,
+          1,
+          2,
+          1,
           null,
           0,
           0,
@@ -83,79 +51,40 @@
           null,
           null,
           1,
+          1,
+          1,
+          2,
+          1,
+          null,
           0,
           0,
-          0,
-          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          1,
           null,
           null,
           null,
           1,
           null,
           1,
-          0,
+          3,
           null,
           null,
           null,
           1,
-          0,
+          2,
           null,
           null
         ]
-      },
-      "/root/individualproject/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/root/individualproject/app/models/project.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/root/individualproject/app/channels/application_cable/channel.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/individualproject/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/individualproject/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/individualproject/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1620518745
+    "timestamp": 1620531113
   }
 }

@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<div class="jumbotron">
+  <h1 class="display-4">Lucas Ansel</h1>
+  <p class="lead">This is a sample website for projects that I have completed, or am working on at the moment.</p>
+</div>
+
 <h1>Projects</h1>
 
 <table>
@@ -13,14 +18,25 @@
 
   <tbody>
     <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title %></td>
-        <td><%= project.description %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><%= project.title %></td>
+            <td><%= project.description %></td>
+            <td><%= link_to 'Show', project %></td>
+            <td><%= link_to 'Edit', edit_project_path(project) %></td>
+            <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        </tbody>
+      </table>
     <% end %>
+    
   </tbody>
 </table>
 
